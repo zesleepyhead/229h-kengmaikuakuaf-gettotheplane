@@ -52,7 +52,7 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "GI203_Physic.sln",
+    "dotnet.defaultSolution": "229h-kengmaikuakuaf-gettotheplane.sln",
     "cSpell.ignoreWords": [
         "Cooldown",
         "Rigidbody"
