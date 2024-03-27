@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BlackHole : MonoBehaviour
@@ -10,22 +11,23 @@ public class BlackHole : MonoBehaviour
  
     public static List<BlackHole> pAttraction;
 
+    public float gravitationalRadius ;
+
     void AttractorFormular(BlackHole other )
     {
         Rigidbody rbOther = other.rb;
  
         Vector3 direction = rb.position - rbOther.position;
- 
-        float distance = direction.magnitude;
- 
-        // F = G * (M1*m2)/D^2
-        float forceMagnitude = G *( rb.mass * rbOther.mass ) / Mathf.Pow( distance , 2 ) ;
- 
-        Vector3 forceDir = direction.normalized * forceMagnitude;
- 
-        rbOther.AddForce(forceDir);
-        
- 
+
+        float distance = direction.magnitude; // Declare the distance variable here
+        // Check if the distance is within the gravitational radius
+        if (distance < gravitationalRadius)
+        {
+            // Calculate and apply gravitational force
+            float forceMagnitude = G * (rb.mass * rbOther.mass) / Mathf.Pow(distance, 2);
+            Vector3 forceDir = direction.normalized * forceMagnitude;
+            rbOther.AddForce(forceDir);
+        }
     }//AttractorFormular
 
     void FixedUpdate()
