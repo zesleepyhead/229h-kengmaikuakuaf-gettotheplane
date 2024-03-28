@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -15,6 +16,7 @@ public class BlackHole : MonoBehaviour
 
     void AttractorFormular(BlackHole other )
     {
+        
         Rigidbody rbOther = other.rb;
  
         Vector3 direction = rb.position - rbOther.position;
