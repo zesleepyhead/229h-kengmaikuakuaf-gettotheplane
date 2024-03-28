@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: -212}
-  m_SizeDelta: {x: 1998.999, y: 311.28}
+  m_AnchoredPosition: {x: 86, y: -271}
+  m_SizeDelta: {x: 1821, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &91636658
 MonoBehaviour:
@@ -183,20 +183,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 160
-    m_Alignment: 3
+    m_Alignment: 6
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Assets Credit \n- https://sketchfab.com/3d-models/\nf4u-corsair-low-poly-cb11ebb220454ae1b72d913a5bd9b1d0\n-
-    https://assetstore.unity.com/packages/3d/characters/humanoids/character-pack-free-sample-79870\n-
-    https://assetstore.unity.com/packages/3d/props/simple-gems-ultimate-animated-customizable-pack-73764"
+  m_Text: "Assets Credit \nhttps://sketchfab.com/3d-models/\nf4u-corsair-low-poly-cb11ebb220454ae1b72d913a5bd9b1d0\n
+    \nhttps://assetstore.unity.com/packages/3d/characters/humanoids/\ncharacter-pack-free-sample-79870\n\n
+    https://assetstore.unity.com/packages/3d/props/simple-gems-ultimate\n-animated-customizable-pack-73764"
 --- !u!222 &91636659
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -276,11 +276,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Member\n\u0E19\u0E19\u0E17\u0E01\u0E23 \u0E27\u0E34\u0E08\u0E34\u0E15\u0E23\u0E2A\u0E38\u0E19\u0E17\u0E23
-    \u0E40\u0E25\u0E02\u0E17\u0E35\u0E48 1 1610517417\tProgrammer\n\u0E13\u0E31\u0E10\u0E1E\u0E19\u0E18\u0E4C
-    \u0E01\u0E15\u0E31\u0E0D\u0E17\u0E35 \u0E40\u0E25\u0E02\u0E17\u0E35\u0E48 6 1630704193\tDesigner\n\u0E13\u0E31\u0E10\u0E20\u0E31\u0E17\u0E23
-    \u0E0A\u0E49\u0E32\u0E07\u0E2A\u0E33\u0E25\u0E35 \u0E40\u0E25\u0E02\u0E17\u0E35\u0E48
-    8 1630707113\t Programmer"
+  m_Text: "Member\nNontakorn Vijitsoontorn No.1 1610517417\tProgrammer\nNutthapon
+    Katuntee No.6 1630704193\tDesigner\nNatthaat Changsamlee No.8 1630707113\t Programmer"
 --- !u!222 &186112770
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -774,7 +771,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63.999996, y: -449}
+  m_AnchoredPosition: {x: 724, y: -399}
   m_SizeDelta: {x: 266.1, y: 132.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497857897
