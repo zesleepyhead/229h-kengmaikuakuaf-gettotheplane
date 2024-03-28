@@ -9223,7 +9223,6 @@ GameObject:
   - component: {fileID: 2094578561}
   - component: {fileID: 2094578560}
   - component: {fileID: 2094578559}
-  - component: {fileID: 2094578563}
   m_Layer: 0
   m_Name: Tower (12)
   m_TagString: Untagged
@@ -9246,7 +9245,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -9317,19 +9316,6 @@ Transform:
   m_Father: {fileID: 1049784817}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2094578563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094578558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e5e2d94bfe4f65489d3b3d8c5720db9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plane: {fileID: 1289641207}
 --- !u!1 &2098953798
 GameObject:
   m_ObjectHideFlags: 0
