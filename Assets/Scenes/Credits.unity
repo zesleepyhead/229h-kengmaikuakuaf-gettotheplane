@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -892, y: -319}
-  m_SizeDelta: {x: 592.1, y: 365.9}
+  m_AnchoredPosition: {x: 27, y: -212}
+  m_SizeDelta: {x: 1998.999, y: 311.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &91636658
 MonoBehaviour:
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -183,18 +183,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 159
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 160
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Link
+  m_Text: "Assets Credit \n- https://sketchfab.com/3d-models/\nf4u-corsair-low-poly-cb11ebb220454ae1b72d913a5bd9b1d0\n-
+    https://assetstore.unity.com/packages/3d/characters/humanoids/character-pack-free-sample-79870\n-
+    https://assetstore.unity.com/packages/3d/props/simple-gems-ultimate-animated-customizable-pack-73764"
 --- !u!222 &91636659
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -238,7 +240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 107}
+  m_AnchoredPosition: {x: 64, y: 25}
   m_SizeDelta: {x: 1126.61, y: 421.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &186112769
@@ -263,10 +265,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 93
+    m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 98
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -274,7 +276,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Credit\n\u0E19\u0E19\u0E17\u0E01\u0E23 \u0E27\u0E34\u0E08\u0E34\u0E15\u0E23\u0E2A\u0E38\u0E19\u0E17\u0E23
+  m_Text: "Member\n\u0E19\u0E19\u0E17\u0E01\u0E23 \u0E27\u0E34\u0E08\u0E34\u0E15\u0E23\u0E2A\u0E38\u0E19\u0E17\u0E23
     \u0E40\u0E25\u0E02\u0E17\u0E35\u0E48 1 1610517417\tProgrammer\n\u0E13\u0E31\u0E10\u0E1E\u0E19\u0E18\u0E4C
     \u0E01\u0E15\u0E31\u0E0D\u0E17\u0E35 \u0E40\u0E25\u0E02\u0E17\u0E35\u0E48 6 1630704193\tDesigner\n\u0E13\u0E31\u0E10\u0E20\u0E31\u0E17\u0E23
     \u0E0A\u0E49\u0E32\u0E07\u0E2A\u0E33\u0E25\u0E35 \u0E40\u0E25\u0E02\u0E17\u0E35\u0E48
@@ -694,8 +696,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: -334}
-  m_SizeDelta: {x: 264.2, y: 289.8}
+  m_AnchoredPosition: {x: 0.000030518, y: 378}
+  m_SizeDelta: {x: 145.628, y: 159.739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1233235683
 MonoBehaviour:
@@ -772,7 +774,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -981, y: 348}
+  m_AnchoredPosition: {x: 63.999996, y: -449}
   m_SizeDelta: {x: 266.1, y: 132.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497857897
@@ -929,10 +931,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 75
+    m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 168
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -940,7 +942,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu
+  m_Text: Back to Menu
 --- !u!222 &1624255808
 CanvasRenderer:
   m_ObjectHideFlags: 0
